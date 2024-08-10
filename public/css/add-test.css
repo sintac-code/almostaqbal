@@ -1,0 +1,170 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #222;
+    color: #eee;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input ,select, button{
+    background: #222;
+    border: 1px solid #eee;
+    outline: none;
+    border-radius: 8px;
+    color: #eee;
+}
+.add-question {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.add-question select {
+    width: 100%;
+    padding: 5px 20px;
+}
+.add-question button {
+    padding: 5px;
+}
+.chick-question, .chose-question, .choos-question {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+.chick-question button, .chose-question button, .choos-question button {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: red;
+    padding: 7px;
+}
+.chick-question h2, .chose-question h2, .choos-question h2 {
+    margin-top: -32px;
+    background: #222;
+    max-width: max-content;
+    padding: 0 10px;
+}
+.chick-question article {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.chick-question input {
+    padding: 5px 15px;
+
+}
+.chick-question article input {
+    width: calc(100% - 80px);
+}
+.chick-question article span {
+    padding: 0 10px;
+}
+.chick-question article i {
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+
+/* ============================================================================== */
+/* ============================================================================= */
+
+.chose-question input{
+    width: 100%;
+    padding: 5px 15px;
+}
+.chose-item {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+.chose-item input {
+    width: 25%;
+}
+.chose-question select {
+    width: 100%;
+    padding: 5px 15px;
+}
+.chose-cont {
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 15px;
+
+}
+
+
+
+/* ======================================================================== */
+/* ======================================================================= */
+.choos-question textarea {
+    background: #222;
+    border: 1p solid #eee;
+    outline: none;
+    border-radius: 8px;
+    padding: 8px;
+    resize: none;
+    color: #eee;
+}
+.pona-inpot {
+    padding: 5px 15px;
+}
+.hashtag {
+    width: 100%;
+    position: relative;
+}
+.hashtag input {
+    padding: 5px 15px;
+}
+
+#hashtagUl input {
+    margin-bottom: 0.5rem;
+    width: calc(100% - 100px);
+  }
+  
+#tags-container {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+  .hashtag button {
+    top: 17px;
+  }
+  
+.added-li {
+    color: #2C17AC;
+    border: 1px solid #2C17AC;
+    width: fit-content;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+#publish {
+    margin: 0 auto;
+  }
+  
